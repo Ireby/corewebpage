@@ -1,0 +1,133 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<%@ Register Assembly="DevExpress.Web.v16.1, Version=16.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a"
+    Namespace="DevExpress.Web" TagPrefix="dx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es-ES">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Intranet | Grupo CBS</title>
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Kanit:300,400,700,800" rel='stylesheet'
+        type='text/css' />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i,700"
+        rel='stylesheet' type='text/css' />
+    <link href="~/css/Site.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="~/css/typo.css" />
+    <link rel="icon" type="image/gif" href="imagenes/favicon.gif" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .botonTicket * {
+            font-family: 'Kanit';
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <script type="text/javascript">
+            var sessionTimeout = "<%= Session.Timeout %>";
+            function DisplaySessionTimeout() {
+                //assigning minutes left to session timeout to Label
+                document.getElementById("<%= lblSessionTime.ClientID %>").innerText = sessionTimeout;
+            sessionTimeout = sessionTimeout - 1;
+
+            //if session is not less than 0
+            if (sessionTimeout >= 0)
+                //call the function again after 1 minute delay
+                window.setTimeout("DisplaySessionTimeout()", 60000);
+            else {
+                //show message box
+                alert("INTRANET: Su sesión expiró.");
+                window.location = "INTRANET_BUSCADOR.aspx";
+            }
+        }
+        </script>
+
+
+
+        <table width="100%">
+            <tr>
+                <td>
+                     <asp:Panel runat="server" ID="pan_tiempo_sesion" Visible="true">
+                    <table width="100%">
+                        <tr>
+                            <td style="width: 150px; padding-left: 20px;">
+                                <a href="INTRANET_BUSCADOR.aspx">
+                                    <img alt="logo_cbs" src="imagenes/logo_header.png" height="90px" /></a>
+                            </td>
+                            <td style="width: 100%; padding-left: 20px;">
+                                <div class="pi-row-block pi-row-block-txt pi-hidden-xs">
+                                    <h4>Bienvenido/a a Intranet
+                                    <asp:Label ID="lbl_footer" runat="server" Text="" Style="color: #DB0000"></asp:Label>
+                                    </h4>
+                                </div>
+                            </td>
+                            <td style="padding-right: 25px" align="center">
+
+                                 <asp:HyperLink ID="btn_Politicas" ForeColor="#DB0000" Font-Italic="true" Font-Size="Medium" Font-Names='Kanit' Width="150px"
+                                    NavigateUrl="INTRANET_POLITICAS.aspx"
+                                    Text="Políticas de CBS"
+                                    runat="server" />
+
+
+                            </td>
+                   
+                            <td align="right" style=" padding-right: 40px;">
+                                <dx:ASPxButton ID="btn_cerrar" UseSubmitBehavior="false" CssClass="botonTicket" ImagePosition="Right" Width="40px"
+                                    ForeColor="#DB0000" Height="22px" runat="server" Text="Cerrar Sesión" OnClick="btn_cerrar_Click">
+                                </dx:ASPxButton>
+                            </td>
+                            <td align="left" style="padding-top: 20px; padding-right: 6px;">
+                               
+                                <p style="width: 220px; font-size:small">Tiempo de Sesión:&nbsp;<asp:Label ID="lblSessionTime" runat="server" ForeColor="#DB0000"></asp:Label>&nbsp;minutos.</p>
+                                   
+                            </td>
+                        </tr>
+                    </table>
+                             </asp:Panel>
+                </td>
+            </tr>
+            <tr align="center">
+                <td style="background-color: #21252B; border-bottom:2px solid #DB0000;" align="center">
+
+                    <dx:ASPxMenu ID="NavigationMenu" runat="server" AllowSelectItem="True" ShowPopOutImages="True" 
+                        BackColor="#21252B" ForeColor="#BFC8CD" Font-Names="Kanit" Paddings-PaddingTop="3px"
+                        Font-Size="13px">
+                        <ItemStyle BackColor="#21252B" ForeColor="#BFC8CD" Border-BorderColor="#21252B" />
+                        <VerticalPopOutImage Url="imagenes/next.gif">
+                        </VerticalPopOutImage>
+                        <SubMenuStyle BackColor="#21252B" Border-BorderStyle="Solid" Border-BorderColor="#21252B" />
+                        <SubMenuItemStyle HoverStyle-BackColor="#21252B" HoverStyle-ForeColor="#CD0000" Border-BorderColor="#21252B"
+                            HoverStyle-Border-BorderStyle="None">
+                        </SubMenuItemStyle>
+                    </dx:ASPxMenu>
+
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 2px; ">
+                    <div id="div_pagina" runat="server"  >
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 10px">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                     <asp:Panel runat="server" ID="pan_footer" Visible="true">
+                    <asp:ContentPlaceHolder ID="footer" runat="server">
+                        <img alt="footer" src="imagenes/pie blanco.png" width="800px" />
+                    </asp:ContentPlaceHolder>
+                         </asp:Panel>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

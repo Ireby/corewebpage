@@ -1,0 +1,44 @@
+c:\users\rebeca.urra\documents\visual studio 2015\Projects\Cursito\Cursito\bin\roslyn\csc.exe
+c:\users\rebeca.urra\documents\visual studio 2015\Projects\Cursito\Cursito\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\rebeca.urra\documents\visual studio 2015\Projects\Cursito\Cursito\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\rebeca.urra\documents\visual studio 2015\Projects\Cursito\Cursito\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\rebeca.urra\documents\visual studio 2015\Projects\Cursito\Cursito\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\rebeca.urra\documents\visual studio 2015\Projects\Cursito\Cursito\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\rebeca.urra\documents\visual studio 2015\Projects\Cursito\Cursito\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\rebeca.urra\documents\visual studio 2015\Projects\Cursito\Cursito\bin\roslyn\System.Collections.Immutable.dll
+c:\users\rebeca.urra\documents\visual studio 2015\Projects\Cursito\Cursito\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\rebeca.urra\documents\visual studio 2015\Projects\Cursito\Cursito\bin\roslyn\vbc.exe
+c:\users\rebeca.urra\documents\visual studio 2015\Projects\Cursito\Cursito\bin\roslyn\VBCSCompiler.exe
+c:\users\rebeca.urra\documents\visual studio 2015\Projects\Cursito\Cursito\bin\roslyn\VBCSCompiler.exe.config
+c:\users\rebeca.urra\documents\visual studio 2015\Projects\Cursito\Cursito\bin\Cursito.dll.config
+c:\users\rebeca.urra\documents\visual studio 2015\Projects\Cursito\Cursito\bin\Cursito.dll
+c:\users\rebeca.urra\documents\visual studio 2015\Projects\Cursito\Cursito\bin\Cursito.pdb
+c:\users\rebeca.urra\documents\visual studio 2015\Projects\Cursito\Cursito\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\rebeca.urra\documents\visual studio 2015\Projects\Cursito\Cursito\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\rebeca.urra\documents\visual studio 2015\Projects\Cursito\Cursito\obj\Debug\Cursito.dll
+c:\users\rebeca.urra\documents\visual studio 2015\Projects\Cursito\Cursito\obj\Debug\Cursito.pdb
+C:\Users\rebeca.urra\Documents\Visual Studio 2015\Projects\Cursito\Cursito\obj\Debug\Cursito.csproj.AssemblyReference.cache
+C:\Users\rebeca.urra\Documents\Visual Studio 2015\Projects\Cursito\Cursito\obj\Debug\Cursito.csproj.CoreCompileInputs.cache
+C:\Users\rebeca.urra\Documents\Visual Studio 2015\Projects\Cursito\Cursito\obj\Debug\Cursito.csproj.CopyComplete
+C:\Users\Rebe\source\repos\Cursito\Cursito\bin\roslyn\csc.exe
+C:\Users\Rebe\source\repos\Cursito\Cursito\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Rebe\source\repos\Cursito\Cursito\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Rebe\source\repos\Cursito\Cursito\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Rebe\source\repos\Cursito\Cursito\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Rebe\source\repos\Cursito\Cursito\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Rebe\source\repos\Cursito\Cursito\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Rebe\source\repos\Cursito\Cursito\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Rebe\source\repos\Cursito\Cursito\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Rebe\source\repos\Cursito\Cursito\bin\roslyn\vbc.exe
+C:\Users\Rebe\source\repos\Cursito\Cursito\bin\roslyn\VBCSCompiler.exe
+C:\Users\Rebe\source\repos\Cursito\Cursito\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Rebe\source\repos\Cursito\Cursito\bin\Cursito.dll.config
+C:\Users\Rebe\source\repos\Cursito\Cursito\bin\Cursito.dll
+C:\Users\Rebe\source\repos\Cursito\Cursito\bin\Cursito.pdb
+C:\Users\Rebe\source\repos\Cursito\Cursito\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Rebe\source\repos\Cursito\Cursito\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Rebe\source\repos\Cursito\Cursito\obj\Debug\Cursito.csproj.AssemblyReference.cache
+C:\Users\Rebe\source\repos\Cursito\Cursito\obj\Debug\Cursito.csproj.CoreCompileInputs.cache
+C:\Users\Rebe\source\repos\Cursito\Cursito\obj\Debug\Cursito.csproj.CopyComplete
+C:\Users\Rebe\source\repos\Cursito\Cursito\obj\Debug\Cursito.dll
+C:\Users\Rebe\source\repos\Cursito\Cursito\obj\Debug\Cursito.pdb
